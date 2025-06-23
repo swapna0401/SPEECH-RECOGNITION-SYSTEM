@@ -57,4 +57,6 @@ Additionally, for MP3 to WAV conversion to work properly, `ffmpeg` must be insta
 
 The transcription will also be displayed in terminal for immediate review.
 
+# output
 
+![Image](https://github.com/user-attachments/assets/819755a4-5f4b-43cc-8b51-2cf8fc6c2c01)

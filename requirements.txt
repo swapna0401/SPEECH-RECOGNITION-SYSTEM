@@ -1,0 +1,4 @@
+SpeechRecognition>=3.8.1
+pydub>=0.25.1
+PyAudio>=0.2.11     # Needed for microphone input (if used)
+ffmpeg-python>=0.2.0  # Optional, for audio conversion (MP3 to WAV)

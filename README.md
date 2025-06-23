@@ -12,7 +12,6 @@
 
 
 # SPEECH-RECOGNITION-SYSTEM
-# Speech-to-Text Transcription Tool
 
 # About the Project
 
@@ -41,5 +40,21 @@ It also requires the following Python libraries:
 - speechrecognition  
 - pydub  
 
-These libraries are required to convert audio formats and run speech recognition using the Google API. All dependencies can be installed by running the following command in the project folder:
+These libraries are required to convert audio formats and run speech recognition using the Google API.
+
+Additionally, for MP3 to WAV conversion to work properly, `ffmpeg` must be installed and accessible via system path. 
+
+# Running the Tool
+
+1. Place a `.mp3` or `.wav` audio file on system.
+2. Run the script from the terminal.
+3. When prompted, provide the full path to the audio file.
+4. The script will automatically:
+- Convert the file (if needed)
+- Calculate duration
+- Transcribe the audio
+- Save the results to a `.txt` report
+
+The transcription will also be displayed in terminal for immediate review.
+
 
